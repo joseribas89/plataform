@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: usuario-exemplo
+spec:
+  profile:
+    displayName: Usuário Exemplo
+    email: usuario@empresa.com
+  memberOf: [time-backend]
