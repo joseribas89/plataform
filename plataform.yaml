@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meu-primeiro-servico
+  description: Meu primeiro serviço no Backstage
+  tags:
+    - java
+    - spring
+spec:
+  type: service
+  owner: time-backend
+  lifecycle: production
