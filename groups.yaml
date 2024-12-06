@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: time-backend
+  description: Time de Backend
+spec:
+  type: team
+  profile:
+    displayName: Time de Backend
+    email: team-backend@empresa.com
+  parent: default-team
+  children: []
+---
+# Grupo pai para organização hierárquica
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: default-team
+  description: Time Default
+spec:
+  type: team
+  profile:
+    displayName: Default Team
+    email: default@empresa.com
